@@ -6,7 +6,7 @@
 
 <hr>
 
-<table class="table table-bordered table-dark">
+<table class="table table-bordered table-danger">
     <tr>
         <th>Nome</th>
         <th>Telefone</th>
