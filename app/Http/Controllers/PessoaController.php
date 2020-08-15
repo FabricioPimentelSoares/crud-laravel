@@ -45,4 +45,11 @@ class PessoaController extends Controller
 
         return redirect('/pessoas');
     }
+
+    public function destroy(Pessoa $pessoa)
+    {
+        $pessoa->delete();
+
+        return redirect('/pessoas');
+    }
 }
