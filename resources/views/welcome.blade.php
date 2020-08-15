@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="/pessoas">Pessoas</a>
+                    <a href="/pessoas">Cadastro</a>
                     
                 </div>
             </div>
