@@ -20,11 +20,8 @@
         <td>{{ $p->email}}</td>
         <td>
             <a class="btn btn-primary" href="/pessoas/{{ $p->id }}/edit">Editar</a>
-            <form action="pessoas/ {{ $p->id }}" method="post">
-            @csrf
-            @method('DELETE')
-            <input class="btn btn-danger" type="submit" value="Excluir">
-            </form>
+            <a class="btn btn-primary" href="/pessoas/{{ $p->id }}">Excluir</a>
+            
 
         </td>
     </tr>
